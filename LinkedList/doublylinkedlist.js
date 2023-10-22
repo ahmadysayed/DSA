@@ -61,7 +61,7 @@ class DoublyLinkedList {
         leader.next = newNode;
         newNode.prev = leader;
         newNode.next = follower;
-        follower.prev = newNode;
+        follower.prev = newNode; 
         this.length++;
         return this.printList();
     }
